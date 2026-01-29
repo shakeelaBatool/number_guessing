@@ -6,7 +6,7 @@ def number_guess():
     
     while True:
         try:
-            user_guess = int(input("Enter your guess: "))
+            user_guess =int(input("Enter your guess: "))
         except ValueError:
             print("Please enter a valid number.")
             continue
@@ -22,3 +22,4 @@ def number_guess():
 
 # Start the game
 number_guess()
+
