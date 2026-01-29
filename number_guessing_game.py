@@ -1,7 +1,7 @@
 import random
 
 def number_guess():
-    com_guess = random.randint(1, 100)
+    com_guess =random.randint(1, 100)
     print("Computer has chosen a number between 1 and 100.")
     
     while True:
@@ -22,4 +22,5 @@ def number_guess():
 
 # Start the game
 number_guess()
+
 
